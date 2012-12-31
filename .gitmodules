@@ -1,12 +1,12 @@
 [submodule "api"]
 	path = api
-	url = git@github.com:crew/metrics-api.git
+	url = git://github.com/crew/metrics-api.git
 [submodule "aggregator"]
 	path = aggregator
-	url = git@github.com:crew/metrics-aggregator.git
+	url = git://github.com/crew/metrics-aggregator.git
 [submodule "backend"]
 	path = backend
-	url = git@github.com:crew/metrics-backend.git
+	url = git://github.com/crew/metrics-backend.git
 [submodule "frontend"]
 	path = frontend
-	url = git@github.com:crew/metrics-frontend.git
+	url = git://github.com/crew/metrics-frontend.git
