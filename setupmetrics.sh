@@ -33,6 +33,7 @@ source $ENVDIR/bin/activate || exit 1
 echo "Setting up."
 # Install pip, because the requirements files need this.
 easy_install pip
+easy_install pytz
 
 echo "Installing api."
 pushd metrics/api; python setup.py install; popd
